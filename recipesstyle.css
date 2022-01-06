@@ -1,3 +1,4 @@
+/* center top nav */
 .topnav{
     margin: auto;
     text-align: center;
@@ -6,6 +7,7 @@
     background-color: rgb(206, 178, 103);
 }
 
+/* color top nav for regular and hover use */
 .topnav a {
     color: white;
 }
@@ -13,32 +15,31 @@
     color: orange; 
 }
 
+/* Format heading tags */
 h1{
     text-align: center;
     font-size: 300%;
     color: black;
-    border:black;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
     background-color: rgb(233, 185, 55);
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
 
+
 }
 h2{
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     color: black;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
-    border-radius: 0%;
     background-color: rgb(233, 185, 55);
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+
 }
 h3{
     text-align: center;
@@ -55,13 +56,18 @@ h3{
     position:relative;
     margin-top: 50%;
 }
-
 h4{
     text-align: center;
     font-size: 150%;
     color: black;
 }
 
+/* Add image to background */
+body{
+    background-image: url('spices.jpg')
+}
+
+/* Format paragraph tag */
 p{
     text-align: left;
     font-size: 100%;
@@ -70,16 +76,13 @@ p{
 
 }
 
-body{
-    background-image: url('spices.jpg')
-}
+/* Create Recipe Cards */
 .container{
     position: relative;
-    width: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 
 }
 .box{
@@ -94,6 +97,7 @@ body{
     margin-right: auto;
 }
 
+/* Add Effects to Recipe Cards */
 .box a{
     display: block;
     height: 100%;
@@ -101,35 +105,34 @@ body{
 .box:hover{
     z-index: 2;
 }
-
-.recipeText{
-    float: left;
-    width: 50%;
-}
-
-.recipeText h1{
-    color: black;
-}
-
 .first{
     background-color: rgb(133, 102, 16);
 }
-
 .second{
-    top: 50px;
-    left: 50px;
+    top: 30px;
+    left: 30px;
     background-color: rgb(212, 178, 82);
 
 
 }
 .third{
-    top: 120px;
-    left: 120px;   
+    top: 90px;
+    left: 90px;   
     background-color: rgb(228, 208, 152);
 
     z-index: 1;
 }
 
+/* Format Recipe Card Text */
+.recipeText{
+    float: left;
+    width: 50%;
+}
+.recipeText h1{
+    color: black;
+}
+
+/* Format Recipe Card Images */
 img{
     width: 50%;
     height: 50%;
@@ -137,8 +140,8 @@ img{
     float: right;
 }
 
+/* Format Footer */
 footer{
-    position:absolute;
     bottom:0;
     text-align: center;
     color: black;

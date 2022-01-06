@@ -1,3 +1,4 @@
+/* center top nav */
 .topnav{
     margin: auto;
     text-align: center;
@@ -6,6 +7,7 @@
     background-color: rgb(206, 178, 103);
 }
 
+/* color top nav for regular and hover use */
 .topnav a {
     color: white;
 }
@@ -13,17 +15,13 @@
     color: orange; 
 }
 
-body{
-    background-image: url('spices.jpg')
-}
+/* Format heading tags */
 h1{
     text-align: center;
     font-size: 300%;
     color: black;
-    border:black;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
     background-color: rgb(233, 185, 55);
     width: 70%;
     margin-left: 15%;
@@ -32,49 +30,53 @@ h1{
 }
 h2{
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     color: black;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
-    border-radius: 0%;
     background-color: rgb(233, 185, 55);
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-}
 
+}
 h3{
     text-align: center;
     font-size: 150%;
     color: black;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
-    border-radius: 0%;
     background-color: rgb(233, 185, 55);
 }
 
+/* Add image to background */
+body{
+    background-image: url('spices.jpg')
+}
+
+/* Format paragraph tag */
 p{
     text-align: center;
     font-size: 350%;
     color: black;
 }
 
+/* Create two Columns and add margin */
 .row {
-    width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
 }
 .column {
-float: left;
-width: 50%;
-background-color: rgb(233, 185, 55);
-
+    float: left;
+    width: 50%;
+    background-color: rgb(233, 185, 55);
+    margin-left: 5;
+    margin-right: 5;
 }
-
-
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -82,24 +84,23 @@ background-color: rgb(233, 185, 55);
   clear: both;
 }
 
+/* Format Table */
 table, th, td {
     border: 1px solid black;
-    font-size: 30;
-  }
-
+    font-size: 20;
+}
 table{
     width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
 }
-
 th{
     text-transform: uppercase;
 }
-
 tr:hover{
     background-color: burlywood;
 }
-
+/* Format Footer */
 footer{
     position:absolute;
     bottom:0;
@@ -108,4 +109,4 @@ footer{
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-   }
+}
