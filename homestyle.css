@@ -1,0 +1,78 @@
+.topnav{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    font-size: 350%;
+    background-color: rgb(206, 178, 103);
+}
+
+.topnav a {
+    color: white;
+}
+.topnav a:hover {
+    color: orange; 
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    color: black;
+    border:black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: rgb(233, 185, 55);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0%;
+    background-color: rgb(233, 185, 55);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h3{
+    text-align: center;
+    font-size: 150%;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0%;
+    background-color: rgb(233, 185, 55);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h4{
+    text-align: center;
+    font-size: 100%;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0%;
+    background-color: rgb(233, 185, 55);
+
+}
+
+body{
+    background-image: url('spices.jpg')
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+

@@ -1,0 +1,18 @@
+.topnav{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    font-size: 350%;
+    background-color: black;
+}
+
+.topnav a {
+    color: white;
+}
+.topnav a:hover {
+    color: orange; 
+}
+
+body{
+    background-image: url('spices.jpg')
+}
