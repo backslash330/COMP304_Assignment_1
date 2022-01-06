@@ -13,9 +13,6 @@
     color: orange; 
 }
 
-body{
-    background-image: url('spices.jpg')
-}
 h1{
     text-align: center;
     font-size: 300%;
@@ -43,7 +40,6 @@ h2{
     margin-left: 15%;
     margin-right: 15%;
 }
-
 h3{
     text-align: center;
     font-size: 150%;
@@ -53,51 +49,90 @@ h3{
     border-color: black;
     border-radius: 0%;
     background-color: rgb(233, 185, 55);
-}
-
-p{
-    text-align: center;
-    font-size: 350%;
-    color: black;
-}
-
-.row {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-}
-.column {
-float: left;
-width: 50%;
-background-color: rgb(233, 185, 55);
-
+    position:relative;
+    margin-top: 50%;
 }
 
-
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+h4{
+    text-align: center;
+    font-size: 150%;
+    color: black;
 }
 
-table, th, td {
-    border: 1px solid black;
-    font-size: 30;
-  }
+p{
+    text-align: left;
+    font-size: 100%;
+    color: black;
+    margin-left: 5%;
 
-table{
-    width: 100%;
-    border-collapse: collapse;
 }
 
-th{
-    text-transform: uppercase;
+body{
+    background-image: url('spices.jpg')
+}
+.container{
+    position: relative;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.box{
+
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-tr:hover{
-    background-color: burlywood;
+.box a{
+    display: block;
+    height: 100%;
+}
+.box:hover{
+    z-index: 2;
+}
+
+.recipeText{
+    float: left;
+    width: 50%;
+}
+
+.recipeText h1{
+    color: black;
+}
+.first{
+    background-color: rgb(133, 102, 16);
+    z-index: 1;
+}
+.second{
+    top: 50px;
+    left: 50px;
+    background-color: rgb(212, 178, 82);
+
+
+}
+.third{
+    top: 120px;
+    left: 120px;   
+    background-color: rgb(228, 208, 152);
+}
+
+
+img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    float: right;
 }
 
 footer{

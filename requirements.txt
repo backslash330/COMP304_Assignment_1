@@ -23,3 +23,8 @@ at any time pzrt of the recipe should be visible
 when hover it should be brough to the front 
 when clicked it should be brought to to the front as the default box 
 
+todo
+
+figure out why footer disrupts zindex on recipe pages
+figure out what kind of commenting the prof wants
+figure out how to separe colomns
